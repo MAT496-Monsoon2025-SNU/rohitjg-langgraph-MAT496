@@ -15,3 +15,5 @@ What's changed: Added user_name, mood, previous_graph_state, diff, and last_upda
 We learnt how to use the langgraph studio UI in the browser and visualise the node in the UI by entering the graph state here itself.
 
 What's changed: Played around with creating new assistant, looked at recursion limit when creating assistant.
+
+![1760634605061](image/README/1760634605061.png)
