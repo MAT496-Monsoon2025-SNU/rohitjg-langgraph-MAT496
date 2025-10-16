@@ -23,3 +23,9 @@ What's changed: Played around with creating new assistant, looked at recursion l
 Learnt using messages as a state which lets us use chat models and tools interact in a structured, appadable conversation (MessageState + add_messages), Also learnt binding tools to a chat model enables the model to request and execute structured tool calls and then include tool's output back into the message stream.
 
 What's changed: Inserted pretty_print_with_flavour() which basically attempts the original pretty_print() then adds a friendly comment. Also replaced the raw loop to print to output more structured outputs.
+
+## Video 5 - Router
+
+Learnt how graph can route b/w direct LLM response and tool execution by inspecting model output and using conditional edges, also learnt using a ToolNode and the tools_condition enables the model to request structured tool calls which are executed and inserted back into message stream.
+
+What's changed: Added a post processed print output with emoji, and worked aroudn with langgraph ui better.
