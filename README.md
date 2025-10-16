@@ -17,3 +17,9 @@ We learnt how to use the langgraph studio UI in the browser and visualise the no
 What's changed: Played around with creating new assistant, looked at recursion limit when creating assistant.
 
 ![1760634605061](image/README/1760634605061.png)
+
+## Video 4 - Chain
+
+Learnt using messages as a state which lets us use chat models and tools interact in a structured, appadable conversation (MessageState + add_messages), Also learnt binding tools to a chat model enables the model to request and execute structured tool calls and then include tool's output back into the message stream.
+
+What's changed: Inserted pretty_print_with_flavour() which basically attempts the original pretty_print() then adds a friendly comment. Also replaced the raw loop to print to output more structured outputs.
