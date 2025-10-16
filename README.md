@@ -31,3 +31,9 @@ Learnt how graph can route b/w direct LLM response and tool execution by inspect
 What's changed: Added a post processed print output with emoji, and worked aroudn with langgraph ui better.
 
 ![1760636632694](image/README/1760636632694.png)
+
+## Video 6 - Agent
+
+Learnt how a ReAct style loop lets the mdoel call toold, observe tool outputs, and reason further by feeding tool response back intp the assistant node, also learnt on using MessageState with tool binding, also learnt on how to inspect the output of this in langsmith.
+
+What's changed: Added a minimal helper that prints unified diffs between consecutive message/tool outputs and prints messages. this helps me inspect how the assistant's output changes after each tool call.
