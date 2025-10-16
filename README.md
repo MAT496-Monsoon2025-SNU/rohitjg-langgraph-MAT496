@@ -29,3 +29,5 @@ What's changed: Inserted pretty_print_with_flavour() which basically attempts th
 Learnt how graph can route b/w direct LLM response and tool execution by inspecting model output and using conditional edges, also learnt using a ToolNode and the tools_condition enables the model to request structured tool calls which are executed and inserted back into message stream.
 
 What's changed: Added a post processed print output with emoji, and worked aroudn with langgraph ui better.
+
+![1760636632694](image/README/1760636632694.png)
