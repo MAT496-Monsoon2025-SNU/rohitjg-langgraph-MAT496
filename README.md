@@ -37,3 +37,11 @@ What's changed: Added a post processed print output with emoji, and worked aroud
 Learnt how a ReAct style loop lets the mdoel call toold, observe tool outputs, and reason further by feeding tool response back intp the assistant node, also learnt on using MessageState with tool binding, also learnt on how to inspect the output of this in langsmith.
 
 What's changed: Added a new tool to exponentiate a to b. Added a minimal helper that prints unified diffs between consecutive message/tool outputs and prints messages. this helps me inspect how the assistant's output changes after each tool call.
+
+## Video 7 - Agent With Memory
+
+Learnt how to add memory to the agent.
+
+What's changed: Added more new tools(like sqrt, subtract, power, mod) and bound them to the LLM, and also tested langgraph ui for agents with multiple examples.
+
+![1760637650050](image/README/1760637650050.png)
