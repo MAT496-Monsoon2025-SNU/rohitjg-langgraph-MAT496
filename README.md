@@ -77,3 +77,9 @@ What's Changed: Relaced working list names with conversation_log and chat_thread
 Learnt about how a running outline lets the chatbot compress conversation history while LangGraph handles persistence across steps and threads, also learnt about conditional edge, which decide when to refresh the outline so the model receives structured context without reprocessing every message.
 
 Whats changes: Renamed the state key to running_outline and rewrote the prompts to reflect the new terminology, also updated outline retrieval and state checks so the later cells which reference the new key when inspecting saved memory.
+
+## Video 6 - Chatbot with Summarizing Messages and External Memory
+
+Learnt how to use external checkpointers such as Sqlite persist every thread’s state so the chatbot can resume conversations with their memory of last conversation intact, this also helps us keep token usage low.
+
+What's Changed: Renamed the in state summary field to running outline and updated the prompts and helpers to reference it.
