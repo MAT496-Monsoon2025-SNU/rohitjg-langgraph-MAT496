@@ -45,3 +45,11 @@ Learnt how to add memory to the agent.
 What's changed: Added more new tools(like sqrt, subtract, power, mod) and bound them to the LLM, and also tested langgraph ui for agents with multiple examples.
 
 ![1760637650050](image/README/1760637650050.png)
+
+# Module 2
+
+## Video 1 - Simple Schema
+
+Learnt about typed state schemas, TypedDict, dataclass, Pydantic, which lets every node share a consistent contact so LangGraph graphs stay predictable.
+
+What's Changed: Changed the mood to status channel with new "focused" or "relaxed" values.
