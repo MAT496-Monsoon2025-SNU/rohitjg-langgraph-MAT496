@@ -60,8 +60,15 @@ Learnt that reducers let parallel nodes safely merge updates so the state contra
 
 What changed: Replaced the foo channel with metric across the reducer examples for clearer intent.
 
-## Video 3 - Trim Filter Messages
+
+## Video 4 - Trim Filter Messages
 
 Learnt about message reducers, filters, and trimmers control how much of the conversation log reaches the model each turn, also learnt about maintaining a consistent message channel lets us reshape the chat thread without breaking LangGraph structure.
 
 What's Changed: Relaced working list names with conversation_log and chat_thread so the code is more readable and also updated every invocation of these in the code.
+
+## Video 5 - Chatbot with Summarizing Messages and History
+
+Learnt about how a running outline lets the chatbot compress conversation history while LangGraph handles persistence across steps and threads, also learnt about conditional edge, which decide when to refresh the outline so the model receives structured context without reprocessing every message.
+
+Whats changes: Renamed the state key to running_outline and rewrote the prompts to reflect the new terminology, also updated outline retrieval and state checks so the later cells which reference the new key when inspecting saved memory.
