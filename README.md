@@ -59,3 +59,9 @@ What's Changed: Changed the mood to status channel with new "focused" or "relaxe
 Learnt that reducers let parallel nodes safely merge updates so the state contract stays deterministic and also that annotated keys can swap between overwrite, append, or custom merge behaviors without rewriting nodes.
 
 What changed: Replaced the foo channel with metric across the reducer examples for clearer intent.
+
+## Video 3 - Trim Filter Messages
+
+Learnt about message reducers, filters, and trimmers control how much of the conversation log reaches the model each turn, also learnt about maintaining a consistent message channel lets us reshape the chat thread without breaking LangGraph structure.
+
+What's Changed: Relaced working list names with conversation_log and chat_thread so the code is more readable and also updated every invocation of these in the code.
