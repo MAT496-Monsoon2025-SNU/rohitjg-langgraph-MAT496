@@ -53,3 +53,9 @@ What's changed: Added more new tools(like sqrt, subtract, power, mod) and bound 
 Learnt about typed state schemas, TypedDict, dataclass, Pydantic, which lets every node share a consistent contact so LangGraph graphs stay predictable.
 
 What's Changed: Changed the mood to status channel with new "focused" or "relaxed" values.
+
+## Video 2 - Simple Reducers
+
+Learnt that reducers let parallel nodes safely merge updates so the state contract stays deterministic and also that annotated keys can swap between overwrite, append, or custom merge behaviors without rewriting nodes.
+
+What changed: Replaced the foo channel with metric across the reducer examples for clearer intent.
