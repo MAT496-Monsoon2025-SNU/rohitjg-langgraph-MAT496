@@ -60,6 +60,11 @@ Learnt that reducers let parallel nodes safely merge updates so the state contra
 
 What changed: Replaced the foo channel with metric across the reducer examples for clearer intent.
 
+## Video 3 - Multiple Schemas
+
+Learnt how a private state lets nodes exchange scratch variables without affecting the graph's public schema or final output, also learnt how a dedicated inout/output schemas filter which enters and leaves the graph but an internal schema preserves all working fields for logic.
+
+What's Changed: Made the private state example to use score/scratch, also updating all the invocation of that, also reworked the input/output schema to match it.
 
 ## Video 4 - Trim Filter Messages
 
