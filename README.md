@@ -83,3 +83,11 @@ Whats changes: Renamed the state key to running_outline and rewrote the prompts 
 Learnt how to use external checkpointers such as Sqlite persist every thread’s state so the chatbot can resume conversations with their memory of last conversation intact, this also helps us keep token usage low.
 
 What's Changed: Renamed the in state summary field to running outline and updated the prompts and helpers to reference it.
+
+# Module 3
+
+## Video 1 - Streaming
+
+Learnt about multiple streaming modes like values mode(streams the full graph state after each node executes)), updates mode(streams only the changes to state after each node), messages mode(for message based workflows), astream_events(real time token)
+
+What's Changed: changed state class from "summary: str" to "running_outline: str" to show the conversation outline so far. updated summarize_conversation to work woth running_outline and changed prompts from summary to outline, also modified existing comments for summary to this.
