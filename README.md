@@ -109,3 +109,9 @@ What's Changed: Added more mathematical function like pwoer, modulus, subtract..
 Learnt: Dynamic breakpoints using NodeInterrupt allow graphs to self-interrupt based on runtime conditions evaluated within nodes, providing more flexible control than compile-time breakpoints and enabling conditional interruption with custom error messages.
 
 What's Changed: Transformed from a generic string length validation example to a domain specific temparature monitoring system with a 100C safety threshold. Also extended pipeline from 3 generic steps to 4 stages.
+
+## Video 5 - Time Travel
+
+Learnt Time travel enables debugging through state history inspection using get_state_history() allowing replay of past execution states and forking to create alternate execution path from any checkpoint without losing the original execution branch.
+
+What's Changed: Enhanced the mathematical toolkit by adding power , modulo and subtract functions, also updated the system message to better prompt to get better presition.
