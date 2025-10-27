@@ -91,3 +91,9 @@ What's Changed: Renamed the in state summary field to running outline and update
 Learnt about multiple streaming modes like values mode(streams the full graph state after each node executes)), updates mode(streams only the changes to state after each node), messages mode(for message based workflows), astream_events(real time token)
 
 What's Changed: changed state class from "summary: str" to "running_outline: str" to show the conversation outline so far. updated summarize_conversation to work woth running_outline and changed prompts from summary to outline, also modified existing comments for summary to this.
+
+## Video 2 - Breakpoints
+
+Learnt that breakpoints enable human in the loop workflows by pausing graph execution at specified nodes using interrupt_before, allowing for approval, debugging, and state inspection before critical operations. also about the way to resume breakpoints.
+
+What's Changes: Added more mathematical operations by adding power, module, and subtract functions and enhanced the system message for accuracy and multi step reasoning showing its work.
