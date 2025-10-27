@@ -103,3 +103,9 @@ What's Changes: Added more mathematical operations by adding power, module, and 
 Learnt that state editing allows direct modification of graph state during breakpoints using update_state function, enabling correction of agent behavior mid execution.
 
 What's Changed: Added more mathematical function like pwoer, modulus, subtract.. and also updated the system prompt to give presise results.
+
+## Video 4 - Dynamic Breakpoints
+
+Learnt: Dynamic breakpoints using NodeInterrupt allow graphs to self-interrupt based on runtime conditions evaluated within nodes, providing more flexible control than compile-time breakpoints and enabling conditional interruption with custom error messages.
+
+What's Changed: Transformed from a generic string length validation example to a domain specific temparature monitoring system with a 100C safety threshold. Also extended pipeline from 3 generic steps to 4 stages.
