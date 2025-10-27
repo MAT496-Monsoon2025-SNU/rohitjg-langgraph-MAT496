@@ -97,3 +97,9 @@ What's Changed: changed state class from "summary: str" to "running_outline: str
 Learnt that breakpoints enable human in the loop workflows by pausing graph execution at specified nodes using interrupt_before, allowing for approval, debugging, and state inspection before critical operations. also about the way to resume breakpoints.
 
 What's Changes: Added more mathematical operations by adding power, module, and subtract functions and enhanced the system message for accuracy and multi step reasoning showing its work.
+
+## Video 3 - Editing State and Human Feedback
+
+Learnt that state editing allows direct modification of graph state during breakpoints using update_state function, enabling correction of agent behavior mid execution.
+
+What's Changed: Added more mathematical function like pwoer, modulus, subtract.. and also updated the system prompt to give presise results.
