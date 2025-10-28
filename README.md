@@ -122,4 +122,10 @@ What's Changed: Enhanced the mathematical toolkit by adding power , modulo and s
 
 Learnt about executing multiple nodes at the same time, then merge their results, also learnt about reducers and custom reducers.
 
-What's Changed: Added new mathematical functions, modulus, power and subtract.
+What's Changed: Added new mathematical functions, modulus, power and subtract. 
+
+## Video 2 - Sub Graph
+
+Learnt that sub graph enable modular state management for multi agent workflows in LangGraph.
+
+What's Chanaged: Added a code to show number of failures found (custom output inspection)
