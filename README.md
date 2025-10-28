@@ -115,3 +115,11 @@ What's Changed: Transformed from a generic string length validation example to a
 Learnt Time travel enables debugging through state history inspection using get_state_history() allowing replay of past execution states and forking to create alternate execution path from any checkpoint without losing the original execution branch.
 
 What's Changed: Enhanced the mathematical toolkit by adding power , modulo and subtract functions, also updated the system message to better prompt to get better presition.
+
+# Module 4
+
+## Video 1 - Parallelization
+
+Learnt about executing multiple nodes at the same time, then merge their results, also learnt about reducers and custom reducers.
+
+What's Changed: Added new mathematical functions, modulus, power and subtract.
