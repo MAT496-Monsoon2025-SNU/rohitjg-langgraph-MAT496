@@ -135,3 +135,9 @@ What's Chanaged: Added a code to show number of failures found (custom output in
 Learnt that Map reduce enables efficient parallelization and aggregation of tasks in LangGraph workflows.
 
 What's Changed: Added a code to print the number of jokes generated.
+
+## Video 4 - Research Assistant
+
+Learnt that multi agent research assistants in LangGraph can coordinate analyst, interview and report generation using graph workflows.
+
+What's Changed: Added a code to print the number of analysts in the final report.
